@@ -180,5 +180,6 @@ Thumbs.db
 
 # Chalice
 .chalice/deployments/
+.chalice/deployed/
 .chalice/venv/
 .chalice/config.json
