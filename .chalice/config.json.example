@@ -3,16 +3,9 @@
   "app_name": "elevate-api",
   "stages": {
     "dev": {
-      "autogen_policy": true,
-      "api_gateway_stage": "api",
-      "api_gateway_custom_domain": {
-        "domain_name": "elevate.dperconti.com",
-        "security_policy": "TLS 1.2|TLS 1.0",
-        "certificate_arn": "arn:aws:acm:us-east-1:052616243789:certificate/d8ec807a-f5ed-495f-b416-0c7cfce0e161"
-      },
       "environment_variables": {
-        "ELEVATE_AUTH_USER": "elevateinterviews",
-        "ELEVATE_AUTH_PASS": "ElevateSecurityInterviews2021"
+        "ELEVATE_AUTH_USER": "...",
+        "ELEVATE_AUTH_PASS": "..."
       }
     }
   }
