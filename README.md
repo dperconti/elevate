@@ -72,10 +72,15 @@ There are a few endpoints that _do not_ return a user ID associated with the obj
 ## Tasks
 
 ✅ Must query security incidents via HTTP
+
 ✅ Must group results by employee_id, and group incidents by priority level for each employee_id. Note: include the priority level even if the the incident count for that (employee, priority level) is 0 as demonstrated below in the example output (low priority is still included for employee 4506)
+
 ✅ Results should be sorted by incident timestamp (the incidents endpoint /incidents/<type> already returns incidents sorted by the timestamp - you can take advantage of this fact)
+
 ❌ Must return results within 2 seconds _Response time is currently ~6 seconds_
+
 ✅ You can write the API in whichever language and whichever libraries/framework you feel most comfortable with, and it should expose a single endpoint on port 9000
+
 ✅ GET /incidents - returns all types of incidents sorted by timestamp and grouped by employee and priority level for each employee.
 
 
